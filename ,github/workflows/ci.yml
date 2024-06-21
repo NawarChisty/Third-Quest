@@ -35,7 +35,7 @@ jobs:
     - name: Start Flask API
       run: |
         nohup python app.py &
-        sleep 5  # Wait for the server to start
+        sleep 5
 
     - name: Run Performance Test
       run: ./run_performance_test.sh
