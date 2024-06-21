@@ -2,9 +2,8 @@ import mysql.connector
 import random
 import string
 
-# Update these variables with your MySQL credentials
 mysql_user = "root"
-mysql_password = "12gstarz**"  # Replace with your actual MySQL root password
+mysql_password = "12gstarz**"
 mysql_host = "localhost"
 mysql_port = 3306
 mysql_database = "test_db"
